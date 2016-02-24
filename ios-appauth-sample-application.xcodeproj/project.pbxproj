@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F05E5A191C7E401600F835DA /* libAppAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F05E5A161C7E3F9B00F835DA /* libAppAuth.a */; };
+		C5D451AD9CE81484BFB1EDD1 /* libPods-ios-appauth-sample-application.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B100E994576D2F863F1AD44C /* libPods-ios-appauth-sample-application.a */; };
 		F05E5A1B1C7E402700F835DA /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05E5A1A1C7E402700F835DA /* SafariServices.framework */; };
 		F0D83AD81C7E2BC100480DD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D83AD71C7E2BC100480DD4 /* main.m */; };
 		F0D83ADB1C7E2BC100480DD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D83ADA1C7E2BC100480DD4 /* AppDelegate.m */; };
@@ -17,24 +17,10 @@
 		F0D83AE61C7E2BC100480DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D83AE41C7E2BC100480DD4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F05E5A151C7E3F9B00F835DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0D83AED1C7E2BD100480DD4 /* AppAuth.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 340E737C1C5D819B0076B1F6;
-			remoteInfo = AppAuth;
-		};
-		F05E5A171C7E3F9B00F835DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0D83AED1C7E2BD100480DD4 /* AppAuth.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 341741F01C5D8283000EF209;
-			remoteInfo = AppAuthTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		6B09310F9297FC70762CCF5E /* Pods-ios-appauth-sample-application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-appauth-sample-application.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-appauth-sample-application/Pods-ios-appauth-sample-application.release.xcconfig"; sourceTree = "<group>"; };
+		B100E994576D2F863F1AD44C /* libPods-ios-appauth-sample-application.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-appauth-sample-application.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34B403E05FE03555A4227BC /* Pods-ios-appauth-sample-application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-appauth-sample-application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-appauth-sample-application/Pods-ios-appauth-sample-application.debug.xcconfig"; sourceTree = "<group>"; };
 		F05E5A1A1C7E402700F835DA /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		F0D83AD31C7E2BC100480DD4 /* ios-appauth-sample-application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-appauth-sample-application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D83AD71C7E2BC100480DD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,7 +32,6 @@
 		F0D83AE21C7E2BC100480DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0D83AE51C7E2BC100480DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0D83AE71C7E2BC100480DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0D83AED1C7E2BD100480DD4 /* AppAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppAuth.xcodeproj; path = "/Users/pmeyer/Documents/XcodeProjects/ios-appauth-sample-application/../AppAuth-iOS/AppAuth.xcodeproj"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,29 +40,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				F05E5A1B1C7E402700F835DA /* SafariServices.framework in Frameworks */,
-				F05E5A191C7E401600F835DA /* libAppAuth.a in Frameworks */,
+				C5D451AD9CE81484BFB1EDD1 /* libPods-ios-appauth-sample-application.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F05E5A111C7E3F9B00F835DA /* Products */ = {
+		33D8158E8D34090652FFF665 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F05E5A161C7E3F9B00F835DA /* libAppAuth.a */,
-				F05E5A181C7E3F9B00F835DA /* AppAuthTests.xctest */,
+				B100E994576D2F863F1AD44C /* libPods-ios-appauth-sample-application.a */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C9127DDBC3EDC1DF849886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C34B403E05FE03555A4227BC /* Pods-ios-appauth-sample-application.debug.xcconfig */,
+				6B09310F9297FC70762CCF5E /* Pods-ios-appauth-sample-application.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F0D83ACA1C7E2BC100480DD4 = {
 			isa = PBXGroup;
 			children = (
 				F05E5A1A1C7E402700F835DA /* SafariServices.framework */,
-				F0D83AED1C7E2BD100480DD4 /* AppAuth.xcodeproj */,
 				F0D83AD51C7E2BC100480DD4 /* ios-appauth-sample-application */,
 				F0D83AD41C7E2BC100480DD4 /* Products */,
+				D2C9127DDBC3EDC1DF849886 /* Pods */,
+				33D8158E8D34090652FFF665 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0D83AEA1C7E2BC100480DD4 /* Build configuration list for PBXNativeTarget "ios-appauth-sample-application" */;
 			buildPhases = (
+				FBEF8C2CC2FED7F83CCBCF4B /* Check Pods Manifest.lock */,
 				F0D83ACF1C7E2BC100480DD4 /* Sources */,
 				F0D83AD01C7E2BC100480DD4 /* Frameworks */,
 				F0D83AD11C7E2BC100480DD4 /* Resources */,
+				BDBEDB23FAEF1BC423CB99D5 /* Embed Pods Frameworks */,
+				277FF41002FF7B9062A5DB88 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,35 +155,12 @@
 			mainGroup = F0D83ACA1C7E2BC100480DD4;
 			productRefGroup = F0D83AD41C7E2BC100480DD4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = F05E5A111C7E3F9B00F835DA /* Products */;
-					ProjectRef = F0D83AED1C7E2BD100480DD4 /* AppAuth.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				F0D83AD21C7E2BC100480DD4 /* ios-appauth-sample-application */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		F05E5A161C7E3F9B00F835DA /* libAppAuth.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libAppAuth.a;
-			remoteRef = F05E5A151C7E3F9B00F835DA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		F05E5A181C7E3F9B00F835DA /* AppAuthTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AppAuthTests.xctest;
-			remoteRef = F05E5A171C7E3F9B00F835DA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F0D83AD11C7E2BC100480DD4 /* Resources */ = {
@@ -200,6 +174,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		277FF41002FF7B9062A5DB88 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-appauth-sample-application/Pods-ios-appauth-sample-application-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDBEDB23FAEF1BC423CB99D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-appauth-sample-application/Pods-ios-appauth-sample-application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEF8C2CC2FED7F83CCBCF4B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0D83ACF1C7E2BC100480DD4 /* Sources */ = {
@@ -318,11 +340,12 @@
 		};
 		F0D83AEB1C7E2BC100480DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34B403E05FE03555A4227BC /* Pods-ios-appauth-sample-application.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = "/Users/pmeyer/Documents/XcodeProjects/AppAuth-iOS/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ios-appauth-sample-application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pingidentity.developer.ios-appauth-sample-application";
@@ -334,11 +357,12 @@
 		};
 		F0D83AEC1C7E2BC100480DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B09310F9297FC70762CCF5E /* Pods-ios-appauth-sample-application.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				HEADER_SEARCH_PATHS = "/Users/pmeyer/Documents/XcodeProjects/AppAuth-iOS/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "ios-appauth-sample-application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pingidentity.developer.ios-appauth-sample-application";
